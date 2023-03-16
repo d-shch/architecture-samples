@@ -1,14 +1,6 @@
 name: blueprints
 
-on:
-  push:
-    branches:
-      - main
-      - views
-  pull_request:
-    branches:
-      - main
-      - views
+on: push
 
 jobs:
   build:
