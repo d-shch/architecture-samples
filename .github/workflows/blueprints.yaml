@@ -4,7 +4,7 @@ on: push
 
 jobs:
   build:
-    runs-on: buildjet-4vcpu-ubuntu-2204 # Needed for emulators
+    runs-on: macos-latest # Needed for emulators
     timeout-minutes: 45
 
     steps:
